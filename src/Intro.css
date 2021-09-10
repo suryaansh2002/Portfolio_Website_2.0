@@ -1,0 +1,114 @@
+.intro-container {
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.name {
+  font-size: 2.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  margin-left: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: -webkit-linear-gradient(rgb(155, 6, 143), rgb(228, 12, 12));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.typewriter {
+  font-size: 4.2rem;
+  padding: 2rem 4rem;
+  font-weight: 700;
+}
+
+.intro-img {
+  width: 30rem;
+  margin-left: 0px;
+}
+.intro-left {
+  height: 100%;
+  width: 65%;
+  padding-top: 35vh;
+  float: left;
+}
+.intro-right {
+  height: 100%;
+  width: 30%;
+  float: left;
+}
+
+.intro-img {
+  width: 100%;
+  margin-top: 8rem;
+}
+
+@media (max-width: 1010px) {
+  .typewriter {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .intro-img {
+    margin-top: 12rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .typewriter {
+    font-size: 2.5rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .intro-img {
+    margin-top: 15rem;
+  }
+}
+@media (max-width: 650px) {
+  .intro-left,
+  .intro-right {
+    width: 100%;
+  }
+  .intro-left {
+    padding-top: 5rem;
+    height: 30vh;
+  }
+  .intro-right {
+    height: 70vh;
+  }
+  .name {
+    margin-left: 0px;
+  }
+  .intro-img {
+    width: 40%;
+    margin-top: 5rem;
+    margin-left: 30%;
+    text-align: center;
+  }
+  .name,
+  .typewriter {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .typewriter {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro-img {
+    width: 60%;
+    margin-top: 5rem;
+    margin-left: 20%;
+    text-align: center;
+  }
+  .typewriter {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .intro-img {
+    width: 80%;
+    margin-left: 10%;
+  }
+}

@@ -1,0 +1,117 @@
+.main {
+  background-color: black;
+  width: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.heading {
+  color: azure;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color: #c1c758;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#card4 {
+  width: 30rem;
+  height: 22rem;
+  background-color: #12120f;
+  background-color: rgba(4, 37, 58, 0.75);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  float: left;
+  margin: 20px auto;
+  transition: 0.5s;
+  display: inline-block;
+}
+#card4:hover {
+  transform: scale(1.1);
+}
+
+#projects {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+  padding-top: 70px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 550;
+}
+
+.dg-logo {
+  width: 20rem;
+}
+
+.project-link {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem;
+}
+.project-link a {
+  color: white;
+  text-decoration: none;
+}
+.project-link a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.project-name {
+  color: white;
+  padding: 4rem 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+#auth {
+  font-size: 2rem;
+  padding: 4.5rem 1rem;
+}
+
+#card4,
+.proj-row,
+.proj-main {
+  overflow-y: hidden;
+}
+
+@media (max-width: 550px) {
+  #card4 {
+    width: 26rem;
+  }
+  #auth {
+    padding: 4.5rem 0rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #card4 {
+    width: 23rem;
+    height: 20rem;
+  }
+  .dg-logo {
+    width: 19rem;
+  }
+  .project-link {
+    font-size: 1.1rem;
+    padding: 0.3rem;
+  }
+  .project-name {
+    font-size: 1.8rem;
+  }
+  #auth {
+    padding: 4.5rem 0rem;
+    font-size: 1.6rem;
+  }
+}

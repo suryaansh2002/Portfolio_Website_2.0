@@ -1,0 +1,155 @@
+.main {
+  background-color: black;
+  width: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+#contact {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 1.2rem;
+  padding-bottom: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 550;
+}
+
+.form-container {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.form-label {
+  color: white;
+  font-size: 1.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem;
+  margin-right: 2rem;
+}
+.form-input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.4);
+  width: 60%;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.form-name,
+.form-email,
+.form-message {
+  margin: 3rem;
+}
+#msg {
+  margin-right: 0.5rem;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.other {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+}
+.handles {
+  text-align: center;
+  align-items: center;
+}
+.icon {
+  height: 4.5rem;
+  width: 4.5rem;
+  padding: 0.8rem;
+}
+
+.submit-button {
+  background: -webkit-linear-gradient(rgb(155, 6, 143), rgb(228, 12, 12));
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 15px;
+  padding: 0.5rem 2rem;
+  font-size: 1.4rem;
+}
+.form-submit {
+  text-align: right;
+  margin: 2.5rem 1rem;
+}
+
+@media (max-width: 1010px) {
+  .form-container {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .form-input {
+    width: 60%;
+  }
+}
+
+@media (max-width: 720px) {
+  .form-container {
+    width: 100%;
+    margin: 0px;
+  }
+  .form-input {
+    width: 75%;
+  }
+  .form-label {
+    font-size: 1.3rem;
+  }
+  #contact {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .form-input {
+    width: 65%;
+  }
+  .form-label {
+    font-size: 1.1rem;
+  }
+  .form-name,
+  .form-email,
+  .form-message {
+    margin: 1rem;
+  }
+
+  #contact {
+    font-size: 2.2rem;
+  }
+  .submit-button {
+    font-size: 1.2rem;
+    padding: 0.5rem 3rem;
+    border: 10px;
+  }
+  .other {
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+  .icon {
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #contact {
+    font-size: 2rem;
+  }
+  .submit-button {
+    font-size: 1.1rem;
+    padding: 0.5rem 3rem;
+    border: 0px;
+  }
+}
