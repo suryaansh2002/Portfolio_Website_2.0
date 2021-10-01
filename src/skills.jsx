@@ -12,6 +12,7 @@ import html from "./images/html.png";
 import css from "./images/css.png";
 import js from "./images/js.png";
 import react from "./images/react.png";
+import ts from "./images/ts.png";
 
 import bootstrap from "./images/bootstrap.png";
 import sass from "./images/sass.png";
@@ -57,12 +58,13 @@ class Skills extends Component {
           <span className="first">
             <Card imgSrc={html} full={4} half={true} />
             <Card imgSrc={css} full={4} half={true} />
-            <Card imgSrc={js} full={4} half={false} />
-            <Card imgSrc={react} full={4} half={false} />
+            <Card imgSrc={js} full={4} half={true} />
+            <Card imgSrc={react} full={4} half={true} />
+            <Card imgSrc={ts} full={2} half={true} />
+
             <Card imgSrc={bootstrap} full={4} half={true} />
             <Card imgSrc={sass} full={3} half={true} />
             <Card imgSrc={node} full={3} half={true} />
-            <Card imgSrc={mongo} full={4} half={false} />
           </span>
           {!this.state.isHidden && <Second />}
         </div>
@@ -81,6 +83,7 @@ class Skills extends Component {
 }
 const Second = () => (
   <div className="second  card-box">
+    <Card imgSrc={mongo} full={4} half={false} />
     <Card imgSrc={express} full={3} half={true} />
     <Card imgSrc={php} full={3} half={true} />
     <Card imgSrc={redux} full={2} half={true} />
