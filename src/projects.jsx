@@ -58,7 +58,7 @@ class Projects extends Component {
             </div>
             <div className="project-link">
               <a
-                href="https://github.com/suryaansh2002/Mern_CRUD_App"
+                href="https://github.com/suryaansh2002/MERN_CrudApp_Frontend"
                 target="__blank"
               >
                 Visit Repo
@@ -71,7 +71,7 @@ class Projects extends Component {
             </div>
             <div className="project-link">
               <a
-                href="https://authentication-app-suryaansh.netlify.app/login"
+                href="https://authentication-app-suryaansh.netlify.app"
                 target="__blank"
               >
                 Visit Site
