@@ -46,6 +46,11 @@ li .nav-link:visited {
 .navbar {
   background: black;
 }
+.nav-logo{
+  width: 45px;
+  margin: 10px;
+  margin-right: -20px;
+}
 
 #nav-id {
   opacity: 0.75;
@@ -56,7 +61,10 @@ li .nav-link:visited {
   z-index: 1000;
 }
 @media (max-width: 980px) {
-  #nav-id {
-    visibility: hidden;
-  }
+.nav-logo{
+  margin-left: calc(50% - 22.5px);
+}
+.navbar-brand{
+  width: 100%;
+}
 }

@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { Component } from "react";
 import "./nav.css";
-
+import logo from "./images/sr_logo.png";
 import instagram from "./images/insta.png";
 import twitter from "./images/twitter.png";
 import linkedin from "./images/linkedin.png";
@@ -12,6 +12,8 @@ class Nav extends Component {
   render() {
     return (
       <nav class="navbar navbar-expand-lg navbar-dark " id="nav-id">
+          <a class="navbar-brand" href="#"><img src={logo} className="nav-logo"/></a>
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item active">
