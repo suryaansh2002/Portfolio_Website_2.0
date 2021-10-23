@@ -78,6 +78,10 @@
   font-size: 2rem;
   padding: 4.5rem 1rem;
 }
+#crud {
+  font-size: 1.8rem;
+  padding: 4.5rem 1rem;
+}
 
 #card4,
 .proj-row,
@@ -93,6 +97,11 @@
     padding: 4.5rem 0rem;
     font-size: 1.6rem;
   }
+  #crud {
+    font-size: 1.5rem;
+    padding: 4.5rem 1rem;
+  }
+  
 }
 
 @media (max-width: 480px) {
@@ -114,4 +123,9 @@
     padding: 4.5rem 0rem;
     font-size: 1.6rem;
   }
+  #crud {
+    font-size: 1.5rem;
+    padding: 4.5rem 0rem;
+  }
+  
 }

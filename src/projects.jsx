@@ -47,7 +47,7 @@ class Projects extends Component {
             </div>
           </div>
           <div id="card4">
-            <div className="project-name">MERN CRUD Application</div>
+            <div className="project-name" id="crud">MERN CRUD Application with authentication using JWT</div>
             <div className="project-link">
               <a
                 href="https://mern-crud-suryaansh.netlify.app/"
