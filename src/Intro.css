@@ -34,6 +34,25 @@
   width: 30%;
   float: left;
 }
+.resume{
+  color: black;
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: rgb(255, 255, 255,0.8);
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: 0.5s;
+  margin-top: 2rem;
+
+}
+.r-c{
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+}
+.resume:hover{
+  transform: scale(1.15);
+}
 
 .intro-img {
   width: 100%;
@@ -49,6 +68,9 @@
 @media (max-width: 900px) {
   .intro-img {
     margin-top: 12rem;
+  }
+  .resume{
+    font-size: 1rem;
   }
 }
 

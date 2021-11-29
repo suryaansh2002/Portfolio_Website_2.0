@@ -47,7 +47,9 @@ class Projects extends Component {
             </div>
           </div>
           <div id="card4">
-            <div className="project-name" id="crud">MERN CRUD Application with authentication using JWT</div>
+            <div className="project-name" id="crud">
+              MERN CRUD Application with authentication using JWT
+            </div>
             <div className="project-link">
               <a
                 href="https://mern-crud-suryaansh.netlify.app/"
@@ -65,6 +67,7 @@ class Projects extends Component {
               </a>
             </div>
           </div>
+
           <div id="card4">
             <div className="project-name" id="auth">
               Authentication Application using Firebase
@@ -86,6 +89,53 @@ class Projects extends Component {
               </a>
             </div>
           </div>
+       
+          <div id="card4">
+            <div className="project-name" id="crud">
+              Quiz App using TypeScript
+            </div>
+            <div className="project-link">
+              <a
+                href="https://suryaansh-quiz-game-ts.netlify.app/"
+                target="__blank"
+              >
+                Visit Site
+              </a>
+            </div>
+            <div className="project-link">
+              <a
+                href="https://github.com/suryaansh2002/Quiz-App-TS"
+                target="__blank"
+              >
+                Visit Repo
+              </a>
+            </div>
+          </div>
+          
+
+          <div id="card4">
+            <div className="project-name" id="">
+              To-Do Application
+            </div>
+            <div className="project-link">
+              <a
+                href="https://to-do-app-suryaansh.netlify.app/"
+                target="__blank"
+              >
+                Visit Site
+              </a>
+            </div>
+            <div className="project-link">
+              <a
+                href="https://github.com/suryaansh2002/To_Do_App"
+                target="__blank"
+              >
+                Visit Repo
+              </a>
+            </div>
+          </div>
+          
+
         </div>
       </div>
     );

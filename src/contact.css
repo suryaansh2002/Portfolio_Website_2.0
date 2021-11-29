@@ -72,13 +72,24 @@ button:focus {
 }
 
 .submit-button {
-  background: -webkit-linear-gradient(rgb(155, 6, 143), rgb(228, 12, 12));
+  /* background: -webkit-linear-gradient(rgb(155, 6, 143), rgb(228, 12, 12));
   color: white;
   font-weight: 500;
   border: none;
   border-radius: 15px;
   padding: 0.5rem 2rem;
-  font-size: 1.4rem;
+  font-size: 1.4rem; */
+  color: black;
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: rgb(255, 255, 255,0.8);
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: 0.5s;
+
+}
+.submit-button:hover{
+  transform: scale(1.15);
 }
 .form-submit {
   text-align: right;

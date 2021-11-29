@@ -36,17 +36,17 @@ class Contact extends Component {
           <div className="form-container">
             <div className="form-name">
               <label className="form-label">Name:</label>
-              <input type="text" name="Name" className="form-input"></input>
+              <input type="text" name="Name" className="form-input" required></input>
             </div>
             <div className="form-email">
               <label className="form-label">Email:</label>
-              <input type="email" name="Email" className="form-input"></input>
+              <input type="email" name="Email" className="form-input" required></input>
             </div>
             <div className="form-message">
               <label id="msg" className="form-label">
                 Message:
               </label>
-              <input type="text" name="Message" className="form-input"></input>
+              <input type="text" name="Message" className="form-input" required></input>
             </div>
             <div className="form-submit">
               <button className="submit-button">Submit</button>

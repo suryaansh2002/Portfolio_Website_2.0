@@ -134,8 +134,15 @@
 }
 
 #button {
-  background: -webkit-linear-gradient(rgb(155, 6, 143), rgb(228, 12, 12));
-  color: white;
-  font-weight: 500;
+  color: black;
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255,0.8);
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+#button:hover{
+  transform: scale(1.15);
 }
 
