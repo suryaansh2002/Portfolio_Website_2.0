@@ -2,7 +2,7 @@ import React from "react";
 import "./Intro.css";
 import Typewriter from "typewriter-effect";
 import suryaansh from "./images/suryaansh.png";
-import myPdf from './images/SR3.pdf'
+import myPdf from './images/Suryaansh_Rathinam_Resume.pdf'
 
 export default function Intro() {
   return (
