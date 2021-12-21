@@ -34,23 +34,24 @@
   width: 30%;
   float: left;
 }
-.resume{
-  color: black;
+.resume {
   border-radius: 30px;
   padding: 10px 30px;
-  background-color: rgb(255, 255, 255,0.8);
+  background-color: #800031;
+  color: white;
+
   font-weight: 600;
   font-size: 1.2rem;
   transition: 0.5s;
   margin-top: 2rem;
-
+  border: none;
 }
-.r-c{
+.r-c {
   text-align: center;
-  align-items:center;
+  align-items: center;
   justify-content: center;
 }
-.resume:hover{
+.resume:hover {
   transform: scale(1.15);
 }
 
@@ -69,7 +70,7 @@
   .intro-img {
     margin-top: 12rem;
   }
-  .resume{
+  .resume {
     font-size: 1rem;
   }
 }

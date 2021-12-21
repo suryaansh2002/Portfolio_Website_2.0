@@ -14,11 +14,13 @@ import js from "./images/js.png";
 import react from "./images/react.png";
 import ts from "./images/ts.png";
 
+
 import bootstrap from "./images/bootstrap.png";
-import sass from "./images/sass.png";
 import node from "./images/node.png";
 import mongo from "./images/mongodb.png";
+import native from './images/r-native.png'
 
+import sass from "./images/sass.png";
 import php from "./images/php.png";
 import express from "./images/express.jpg";
 import redux from "./images/redux.png";
@@ -63,8 +65,8 @@ class Skills extends Component {
             <Card imgSrc={ts} full={2} half={true} />
 
             <Card imgSrc={bootstrap} full={4} half={true} />
-            <Card imgSrc={sass} full={3} half={true} />
             <Card imgSrc={node} full={3} half={true} />
+            <Card imgSrc={native} full={3} half={false} />
           </span>
           {!this.state.isHidden && <Second />}
         </div>
@@ -87,6 +89,7 @@ const Second = () => (
     <Card imgSrc={express} full={3} half={true} />
     <Card imgSrc={php} full={3} half={true} />
     <Card imgSrc={redux} full={2} half={true} />
+    <Card imgSrc={sass} full={3} half={true} />
     <Card imgSrc={mysql} full={4} half={false} />
     <Card imgSrc={git} full={4} half={false} />
     <Card imgSrc={matlab} full={3} half={true} />

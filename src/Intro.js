@@ -2,7 +2,7 @@ import React from "react";
 import "./Intro.css";
 import Typewriter from "typewriter-effect";
 import suryaansh from "./images/suryaansh.png";
-import myPdf from './images/Suryaansh_Rathinam_Resume.pdf'
+import myPdf from "./images/Suryaansh_Rathinam_Resume.pdf";
 
 export default function Intro() {
   return (
@@ -26,7 +26,11 @@ export default function Intro() {
       </div>
       <div className="intro-right">
         <img src={suryaansh} className="intro-img" />
-        <div className="r-c"><a href={myPdf} download="Suryaansh_Rathinam_Resume.pdf"><button className="resume">Download Resume</button></a></div>
+        <div className="r-c">
+          <a href={myPdf} download="Suryaansh_Rathinam_Resume.pdf">
+            <button className="resume">Download Resume</button>
+          </a>
+        </div>
       </div>
     </div>
   );

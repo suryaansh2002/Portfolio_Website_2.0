@@ -12,7 +12,9 @@ class Nav extends Component {
   render() {
     return (
       <nav class="navbar navbar-expand-lg navbar-dark " id="nav-id">
-          <a class="navbar-brand" href="#"><img src={logo} className="nav-logo"/></a>
+        <a class="navbar-brand" href="#">
+          <img src={logo} className="nav-logo" />
+        </a>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">

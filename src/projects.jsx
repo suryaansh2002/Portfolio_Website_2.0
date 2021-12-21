@@ -14,7 +14,7 @@ class Projects extends Component {
           <div id="card4">
             <img src={dg} className="dg-logo" alt="icon" />
             <div className="project-link">
-              <a href="https://datagrad.netlify.app/" target="__blank">
+              <a href="https://datagrad.suryaanshrathinam.com" target="__blank">
                 Visit Site
               </a>
             </div>
@@ -31,7 +31,7 @@ class Projects extends Component {
             <div className="project-name">Ecommerce Application</div>
             <div className="project-link">
               <a
-                href="https://suryaansh-ecommerce-frontend.netlify.app/"
+                href="https://ecommerce.suryaanshrathinam.com"
                 target="__blank"
               >
                 Visit Site
@@ -51,10 +51,7 @@ class Projects extends Component {
               MERN CRUD Application with authentication using JWT
             </div>
             <div className="project-link">
-              <a
-                href="https://mern-crud-suryaansh.netlify.app/"
-                target="__blank"
-              >
+              <a href="https://merncrud.suryaanshrathinam.com" target="__blank">
                 Visit Site
               </a>
             </div>
@@ -74,7 +71,7 @@ class Projects extends Component {
             </div>
             <div className="project-link">
               <a
-                href="https://authentication-app-suryaansh.netlify.app"
+                href="https://authentication.suryaanshrathinam.com"
                 target="__blank"
               >
                 Visit Site
@@ -89,16 +86,13 @@ class Projects extends Component {
               </a>
             </div>
           </div>
-       
+
           <div id="card4">
             <div className="project-name" id="crud">
               Quiz App using TypeScript
             </div>
             <div className="project-link">
-              <a
-                href="https://suryaansh-quiz-game-ts.netlify.app/"
-                target="__blank"
-              >
+              <a href="https://quizts.suryaanshrathinam.com" target="__blank">
                 Visit Site
               </a>
             </div>
@@ -111,17 +105,13 @@ class Projects extends Component {
               </a>
             </div>
           </div>
-          
 
           <div id="card4">
-            <div className="project-name" id="">
-              To-Do Application
+            <div className="project-name"  id="crud">
+              Responsive To-Do Application with authentication using JWT
             </div>
             <div className="project-link">
-              <a
-                href="https://to-do-app-suryaansh.netlify.app/"
-                target="__blank"
-              >
+              <a href="https://todo.suryaanshrathinam.com" target="__blank">
                 Visit Site
               </a>
             </div>
@@ -134,8 +124,6 @@ class Projects extends Component {
               </a>
             </div>
           </div>
-          
-
         </div>
       </div>
     );

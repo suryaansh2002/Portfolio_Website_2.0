@@ -137,12 +137,13 @@
   color: black;
   border-radius: 30px;
   padding: 10px 20px;
-  background-color: rgb(255, 255, 255,0.8);
+  background-color: rgb(255, 255, 255, 0.8);
   font-weight: 600;
   transition: 0.5s;
+  background-color: #800031;
+  color: white;
 }
 
-#button:hover{
+#button:hover {
   transform: scale(1.15);
 }
-
