@@ -5,6 +5,8 @@ import instagram from "./images/insta.png";
 import twitter from "./images/twitter.png";
 import linkedin from "./images/linkedin.png";
 import github from "./images/github2.png";
+import medium from "./images/medium.png";
+
 import gmail from "./images/gmail.png";
 
 class Contact extends Component {
@@ -73,6 +75,13 @@ class Contact extends Component {
           Please feel free to reach out to me at any of my other handles:-
         </div>
         <div className="handles">
+        <a
+            href="https://suryaansh2002.medium.com/introductory-blog-4d8aacaab3a2"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={medium} className="icon" alt="icon" />
+          </a>
           <a
             href="https://github.com/suryaansh2002"
             target="_blank"

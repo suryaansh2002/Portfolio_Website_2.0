@@ -1,6 +1,8 @@
 import "./App.css";
 import React, { Component } from "react";
 import dg from "./images/DG_logo_1.png";
+import psych from "./images/psych.png";
+
 import "./projects.css";
 
 class Projects extends Component {
@@ -26,6 +28,30 @@ class Projects extends Component {
                 Visit Repo
               </a>
             </div>
+          </div>
+          <div id="card4">
+            <img src={psych} className="psych" alt="icon" />
+            <div className="project-link">
+              <a href="https://psychup.org.in/" target="__blank">
+                Visit Site
+              </a>
+            </div>
+            <div className="project-link">
+              <a
+                href="https://github.com/PsychUporg/PsychUp-.org"
+                target="__blank"
+              >
+                Visit Repo
+              </a>
+            </div>
+            {/* <div className="project-link">
+              <a
+                href="https://github.com/PsychUporg/PsychUp-.org"
+                target="__blank"
+              >
+                Visit Linkedin
+              </a>
+            </div> */}
           </div>
           <div id="card4">
             <div className="project-name">Ecommerce Application</div>

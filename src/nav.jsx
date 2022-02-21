@@ -7,6 +7,8 @@ import twitter from "./images/twitter.png";
 import linkedin from "./images/linkedin.png";
 import github from "./images/github2.png";
 import gmail from "./images/gmail.png";
+import medium from "./images/medium.png";
+
 
 class Nav extends Component {
   render() {
@@ -47,6 +49,15 @@ class Nav extends Component {
           </ul>
 
           <ul className="navbar-nav ml-auto ul-right">
+          <li className="nav-item">
+              <a
+                href="https://suryaansh2002.medium.com/introductory-blog-4d8aacaab3a2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="nav-img" src={medium} alt="icon" />
+              </a>
+            </li>
             <li className="nav-item">
               <a
                 href="https://github.com/suryaansh2002"
