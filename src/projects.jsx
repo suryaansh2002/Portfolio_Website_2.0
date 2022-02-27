@@ -90,7 +90,27 @@ class Projects extends Component {
               </a>
             </div>
           </div>
-
+          <div id="card4">
+            <div className="project-name" id="auth">
+            Discussion rooms web application using Django
+            </div>
+            <div className="project-link">
+              <a
+                href="https://suryaansh-django-app.herokuapp.com/"
+                target="__blank"
+              >
+                Visit Site
+              </a>
+            </div>
+            <div className="project-link">
+              <a
+                href="https://github.com/suryaansh2002/Discussion_Rooms_Django_App"
+                target="__blank"
+              >
+                Visit Repo
+              </a>
+            </div>
+          </div>
           <div id="card4">
             <div className="project-name" id="auth">
               Authentication Application using Firebase
