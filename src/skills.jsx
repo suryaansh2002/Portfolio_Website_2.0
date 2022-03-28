@@ -23,6 +23,9 @@ import native from './images/r-native.png'
 import sass from "./images/sass.png";
 import php from "./images/php.png";
 import express from "./images/express.jpg";
+import firebase from "./images/firebase.png";
+import django from "./images/django.png";
+
 import redux from "./images/redux.png";
 
 import mysql from "./images/mysql.png";
@@ -62,8 +65,8 @@ class Skills extends Component {
             <Card imgSrc={css} full={4} half={true} />
             <Card imgSrc={js} full={4} half={true} />
             <Card imgSrc={react} full={4} half={true} />
-            <Card imgSrc={ts} full={2} half={true} />
 
+            <Card imgSrc={ts} full={2} half={true} />
             <Card imgSrc={bootstrap} full={4} half={true} />
             <Card imgSrc={node} full={3} half={true} />
             <Card imgSrc={native} full={3} half={false} />
@@ -87,6 +90,9 @@ const Second = () => (
   <div className="second  card-box">
     <Card imgSrc={mongo} full={4} half={false} />
     <Card imgSrc={express} full={3} half={true} />
+    <Card imgSrc={firebase} full={3} half={false} />
+    <Card imgSrc={django} full={3} half={false} />
+
     <Card imgSrc={php} full={3} half={true} />
     <Card imgSrc={redux} full={2} half={true} />
     <Card imgSrc={sass} full={3} half={true} />

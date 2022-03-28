@@ -74,6 +74,24 @@ class Projects extends Component {
           </div>
           <div id="card4">
             <div className="project-name" id="crud">
+             Chat Application <br/> (Firebase and Chat-Engine)
+            </div>
+            <div className="project-link">
+              <a href="https://chat.suryaanshrathinam.com" target="__blank">
+                Visit Site
+              </a>
+            </div>
+            <div className="project-link">
+              <a
+                href="https://github.com/suryaansh2002/Chat-app"
+                target="__blank"
+              >
+                Visit Repo
+              </a>
+            </div>
+          </div>
+          <div id="card4">
+            <div className="project-name" id="crud">
               MERN CRUD Application with authentication using JWT
             </div>
             <div className="project-link">

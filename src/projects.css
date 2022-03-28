@@ -92,7 +92,6 @@
 .proj-main {
   overflow-y: hidden;
 }
-
 @media (max-width: 550px) {
   #card4 {
     width: 26rem;
@@ -104,6 +103,9 @@
   #crud {
     font-size: 1.5rem;
     padding: 4.5rem 1rem;
+  }
+  #card4 :hover{
+    transform: none;
   }
 }
 
