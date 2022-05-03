@@ -2,6 +2,8 @@ import "./App.css";
 import React, { Component } from "react";
 import dg from "./images/DG_logo_1.png";
 import psych from "./images/psych.png";
+import decrypt from "./images/decrypt.svg";
+import atlantis from "./images/atlantis.png";
 
 import "./projects.css";
 
@@ -52,6 +54,38 @@ class Projects extends Component {
                 Visit Linkedin
               </a>
             </div> */}
+          </div>
+          <div id="card4">
+            <img src={decrypt} className="decrypt-logo" alt="icon" />
+            <div className="project-link">
+              <a href="https://d3crypt.ieeemanipal.com/" target="__blank">
+                Visit Site
+              </a>
+            </div>
+            <div className="project-link">
+              <a
+                href="https://github.com/suryaansh2002/d3crypt-frontend"
+                target="__blank"
+              >
+                Visit Repo
+              </a>
+            </div>
+          </div>
+          <div id="card4">
+            <img src={atlantis} className="atlantis-logo" alt="icon" />
+            <div className="project-link">
+              <a href="https://d3crypt.ieeemanipal.com/" target="__blank">
+                Visit Site
+              </a>
+            </div>
+            <div className="project-link">
+              <a
+                href="https://github.com/suryaansh2002/d3crypt-frontend"
+                target="__blank"
+              >
+                Visit Repo
+              </a>
+            </div>
           </div>
           <div id="card4">
             <div className="project-name">Ecommerce Application</div>
@@ -150,7 +184,6 @@ class Projects extends Component {
               </a>
             </div>
           </div>
-
           <div id="card4">
             <div className="project-name" id="crud">
               Quiz App using TypeScript

@@ -14,7 +14,6 @@ import js from "./images/js.png";
 import react from "./images/react.png";
 import ts from "./images/ts.png";
 
-
 import bootstrap from "./images/bootstrap.png";
 import node from "./images/node.png";
 import mongo from "./images/mongodb.png";
@@ -27,6 +26,8 @@ import firebase from "./images/firebase.png";
 import django from "./images/django.png";
 
 import redux from "./images/redux.png";
+import aws from "./images/aws.jpg";
+import docker from "./images/docker.png";
 
 import mysql from "./images/mysql.png";
 import git from "./images/git.png";
@@ -93,7 +94,10 @@ const Second = () => (
     <Card imgSrc={firebase} full={3} half={false} />
     <Card imgSrc={django} full={3} half={false} />
 
-    <Card imgSrc={php} full={3} half={true} />
+    <Card imgSrc={php} full={3} half={false} />
+    <Card imgSrc={aws} full={3} half={false} />
+    <Card imgSrc={docker} full={2} half={true} />
+
     <Card imgSrc={redux} full={2} half={true} />
     <Card imgSrc={sass} full={3} half={true} />
     <Card imgSrc={mysql} full={4} half={false} />
@@ -108,3 +112,4 @@ const Second = () => (
 );
 
 export default Skills;
+
