@@ -15,8 +15,8 @@ export default function Intro() {
             options={{
               strings: [
                 "WEB-DEVELOPER",
-                "ML ENTHUSIAST",
-                "DATA SCIENCE ENTHUSIAST",
+                "SOFTWARE DEVELOPER",
+                "TECH ENTHUSIAST",
               ],
               autoStart: true,
               loop: true,

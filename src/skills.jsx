@@ -24,6 +24,8 @@ import php from "./images/php.png";
 import express from "./images/express.jpg";
 import firebase from "./images/firebase.png";
 import django from "./images/django.png";
+import appium from "./images/appium.png";
+import java from "./images/java.jpg";
 
 import redux from "./images/redux.png";
 import aws from "./images/aws.jpg";
@@ -97,6 +99,8 @@ const Second = () => (
     <Card imgSrc={php} full={3} half={false} />
     <Card imgSrc={aws} full={3} half={false} />
     <Card imgSrc={docker} full={2} half={true} />
+    <Card imgSrc={appium} full={2} half={true} />
+    <Card imgSrc={java} full={2} half={true} />
 
     <Card imgSrc={redux} full={2} half={true} />
     <Card imgSrc={sass} full={3} half={true} />
